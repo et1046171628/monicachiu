@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oqy-MA-7AD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="monicachiu" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,794 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Tu-XR-8sA">
+                                <rect key="frame" x="-8" y="28" width="391" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="扭特·斯卡曼" translatesAutoresizingMaskIntoConstraints="NO" id="JX4-4s-xcY">
+                                <rect key="frame" x="0.0" y="0.0" width="383" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OAY-Ph-wjh">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="CMU-kR-W02"/>
+                                    <tabBarItem systemItem="more" id="Aa1-jd-IXp"/>
+                                </items>
+                            </tabBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="MdB-Yp-Yxy">
+                                <rect key="frame" x="26" y="419" width="322" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">演員：艾迪·瑞德曼 Eddie Redmayne
+
+         魔法世界新時代的新英雄，紐特‧斯卡曼德（艾迪‧瑞德曼飾演）是這部電影的核心，也是課本《怪獸與牠們的產地》的作者。他被霍格華茲退學之後，以奇獸飼育學家的身分在全球各處旅行；1926 年來到了紐約，他那只裝滿魔法奇獸的皮箱卻被外人打開，脫逃的幾隻奇獸將讓紐約的巫師世界面臨曝光的嚴重威脅。
+
+　　對紐特來說，跟奇獸溝通還比和人類溝通簡單。紐特與他飼養的奇獸們都非常有感情，他還為牠們每一隻都取了名字──像是雷鳥 名叫「法蘭克」。他養了許多木精，其中五隻名叫葩皮、芬恩、泰塔斯、馬羅、湯姆，還有一隻最黏人、隨時都待在紐特身上的木精，名叫「皮奇」。
+
+　　在電影裡，紐特完全是個局外人──他只想來美國買個禮物，順便野放雷鳥法蘭克回牠的家鄉原產地。當他的奇獸被錯放出皮箱，紐特一心只想把牠們找回來，完全沒想過自己會被捲入一個更黑暗的謎團──但當他發現自己身處開戰邊緣的威脅之中，身為一位正直的赫夫帕夫，紐特不會視而不見，而他也發誓，他絕不容忍這個危機再奪走任何一條人命。</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="扭特·斯卡曼" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="wO5-KT-Uct">
+                                <rect key="frame" x="125" y="380" width="124" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
+                    <toolbarItems/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-886" y="922"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iPC-i6-ASR">
+            <objects>
+                <navigationController id="oqy-MA-7AD" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="QDy-iZ-Y4A">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="8gh-4Q-aCW" kind="relationship" relationship="rootViewController" id="jOU-jf-aHF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Nr-ip-SEX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-761" y="123"/>
+        </scene>
+        <!--主要角色-->
+        <scene sceneID="eKY-Tn-KLf">
+            <objects>
+                <tableViewController id="EqS-0o-by5" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="hER-JC-Nao">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <imageView key="tableHeaderView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="劇照2" id="Hpw-r2-Z8F">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="267"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="劇照" id="Wdd-Zr-3iU">
+                            <rect key="frame" x="0.0" y="827" width="375" height="269"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <sections>
+                            <tableViewSection id="jij-Y4-v5z">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="iKf-kR-guo">
+                                        <rect key="frame" x="0.0" y="267" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="iKf-kR-guo" id="RKY-fA-5Te">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="扭特·斯卡曼" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mLF-5f-QsW">
+                                                    <rect key="frame" x="125" y="29" width="92" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <rect key="contentStretch" x="0.29999999999999999" y="0.0" width="1" height="1"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <size key="shadowOffset" width="6" height="3"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="ZRt-la-aoe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="5" rowHeight="80" id="JNk-tm-XZx">
+                                        <rect key="frame" x="0.0" y="347" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="JNk-tm-XZx" id="D18-bU-2hd">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="蒂娜·金坦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aqu-YA-IbZ">
+                                                    <rect key="frame" x="134" y="29" width="75" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="NcD-V9-Yse" kind="show" id="vho-mV-NO6"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="bTE-wX-2AO">
+                                        <rect key="frame" x="0.0" y="427" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bTE-wX-2AO" id="P8y-pb-ZAM">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="奎妮·金坦" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2fP-kB-0Dq">
+                                                    <rect key="frame" x="134" y="29" width="75" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="M6E-vf-AvW" kind="show" id="pre-FI-eDe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="YLh-J6-eDQ">
+                                        <rect key="frame" x="0.0" y="507" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="YLh-J6-eDQ" id="GYj-vN-y5L">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="雅各·科沃斯基" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NW6-KY-Mkl">
+                                                    <rect key="frame" x="115" y="29" width="144" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="ftg-79-VfY" kind="show" id="tMW-ql-fQR"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="bZd-TE-7Bm">
+                                        <rect key="frame" x="0.0" y="587" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bZd-TE-7Bm" id="jyh-g9-lNP">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="波西瓦·葛雷夫" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoE-KW-u5c">
+                                                    <rect key="frame" x="117" y="29" width="109" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="L9P-b2-NJP" kind="show" id="0Vq-vW-ieC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="A3j-V2-gSu">
+                                        <rect key="frame" x="0.0" y="667" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="A3j-V2-gSu" id="eOL-PT-GAJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="魁登斯·巴波 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VKH-of-zbt">
+                                                    <rect key="frame" x="120" y="29" width="142" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="bVk-wR-zxk" kind="show" id="8N2-7i-bht"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="80" id="j5t-YA-m0r">
+                                        <rect key="frame" x="0.0" y="747" width="375" height="80"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="j5t-YA-m0r" id="7bS-HA-tiX">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="79.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="瑪莉盧‧巴波" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdg-ta-VC3">
+                                                    <rect key="frame" x="119" y="29" width="118" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="LiH-0L-2Jz" kind="show" id="gzS-R2-6IW"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="EqS-0o-by5" id="uZJ-aM-lal"/>
+                            <outlet property="delegate" destination="EqS-0o-by5" id="m28-0s-Kgs"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="主要角色" id="b6z-Dd-bXw"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5RH-Ka-ga9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="949.60000000000002" y="122.78860569715144"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s2a-07-w8g">
+            <objects>
+                <viewController id="NcD-V9-Yse" customClass="ViewController" customModule="monicachiu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Lgb-EC-xIa"/>
+                        <viewControllerLayoutGuide type="bottom" id="cKO-jX-cI2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MhH-EX-fFo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pFB-YQ-ktI">
+                                <rect key="frame" x="-8" y="28" width="391" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="蒂娜·金坦" translatesAutoresizingMaskIntoConstraints="NO" id="Zfa-wV-v1b">
+                                <rect key="frame" x="0.0" y="0.0" width="383" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lZo-ou-wyF">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="W9g-Kq-dcs"/>
+                                    <tabBarItem systemItem="more" id="KiE-wu-Npo"/>
+                                </items>
+                            </tabBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="WD2-hL-AGf">
+                                <rect key="frame" x="26" y="419" width="322" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">演員：凱薩琳·沃特斯頓 Katherine Waterston　
+
+       蒂娜‧金坦（凱薩琳‧沃特斯頓飾演）曾是「美利堅魔法國會」的正氣師，卻因為感性主宰理性、曾使用過未經許可的魔法等理由，被降階到「魔杖許可處」工作。她和妹妹奎妮‧金坦一起住在紐約市的一棟小公寓裡。
+
+　　讀過《怪獸與牠們的產地》這本教科書的哈迷們應該知道，蒂娜是紐特的妻子──在新電影裡，她們才剛認識，而且起初看起來完全不搭。個性相當「現實」的蒂娜怎麼會愛上古里怪氣、某種程度上跟現實一點也扯不上關係的紐特？也是這幾部電影讓人關注的焦點。
+
+　　蒂娜為了抓緊重新成為正氣師的機會，而捲入了電影故事中的大事件；而蒂娜在本片中更關鍵的角色是──對於逐漸散播恐懼的黑暗謎團，她似乎略知一二──儘管自己並沒有察覺。
+</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="蒂娜·金坦" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="KvF-W1-gZO">
+                                <rect key="frame" x="107" y="380" width="161" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZcB-vD-3D8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-207" y="922"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JW4-As-44H">
+            <objects>
+                <viewController id="M6E-vf-AvW" customClass="ViewController" customModule="monicachiu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="33s-Y0-Br3"/>
+                        <viewControllerLayoutGuide type="bottom" id="kBo-cK-EXT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Pxn-9a-qFD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fyS-hh-yNl">
+                                <rect key="frame" x="-8" y="28" width="391" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="奎妮·金坦" translatesAutoresizingMaskIntoConstraints="NO" id="7zo-ZW-09D">
+                                <rect key="frame" x="0.0" y="0.0" width="383" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="td4-mR-nEs">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="KzC-es-oKJ"/>
+                                    <tabBarItem systemItem="more" id="q3F-Yh-eeg"/>
+                                </items>
+                            </tabBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="99J-lg-ret">
+                                <rect key="frame" x="26" y="419" width="322" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">演員：艾莉森·蘇朵 Alison Sudol       
+       奎妮‧金坦（艾莉森‧蘇朵飾演）不只和姊姊蒂娜住在一起，他們在美國魔法國會中也一起在「魔杖許可處」工作。她並不像姊姊一樣有遠大的志向（蒂娜的目標是奪回她的正氣師職位），奎妮似乎不太關心自己的職業生涯；雖然姊妹倆個性相異，她們對彼此的依賴和照顧可說是無微不至。奎妮也是一名「破心者」，代表她可以讀取別人的心智。
+
+　　J.K. 羅琳形容奎妮就是一位「甜心」，她總是有辦法讓其他人對她有好感。奎妮很注重打扮──在整部【怪獸與牠們的產地】電影裡，每次看見奎妮登場，場景就好像變成她的伸展台；奎妮同時也有一手「魔法」好廚藝。
+
+　　奎妮天生有個特殊能力：她能夠讀心。不像我們熟知的魔法「破心術」，奎妮能看穿人心思的能力是隨時常駐、自然發生的；這個能力讓奎妮偶爾可以當個相當「懂你」的甜心，但在不想被看穿心思的人面前，她可能就會造成一些尷尬了。
+
+　　在電影裡，奎妮與 #莫魔 #雅各 似乎產生了一段「跨族群」的戀情──但在如此封閉的美國魔法社會裡，這段戀情想必會相當曲折。她們的戀愛故事，是否會為這部電影增加浪漫元素、還是淒美元素呢？</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="蒂娜·金坦" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="ZW8-wd-Hg2">
+                                <rect key="frame" x="107" y="380" width="161" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ola-Vv-aUv" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="465" y="922"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Wa7-sD-EHG">
+            <objects>
+                <viewController id="ftg-79-VfY" customClass="ViewController" customModule="monicachiu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lGR-5T-lxc"/>
+                        <viewControllerLayoutGuide type="bottom" id="13P-B0-8u7"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fZY-hO-dVq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vVe-KH-7a9">
+                                <rect key="frame" x="-8" y="28" width="391" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="雅各‧科沃斯基" translatesAutoresizingMaskIntoConstraints="NO" id="BZp-Nv-LXC">
+                                <rect key="frame" x="0.0" y="0.0" width="383" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9cl-Xy-80F">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="2PJ-4P-mjo"/>
+                                    <tabBarItem systemItem="more" id="rzt-09-Kd6"/>
+                                </items>
+                            </tabBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="tAh-tX-Fgf">
+                                <rect key="frame" x="26" y="419" width="322" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">演員：丹·富樂Dan Fogler     
+      雅各‧科沃斯基（丹‧富樂飾演）是一位莫魔──「麻瓜」在美國巫師口中的稱呼──也就是不會魔法的人。他的夢想是當一位烘培師傅，但他借不起代價高昂的貸款；然而，他的命運就在他遇見了紐特與和他的奇獸時，從此翻轉。
+
+　　雅各是《哈利波特》系列到現在第九部電影以來，第一次出現的「莫魔」主角！哈迷們可能從來沒想過，魔法世界的電影裡會出現一個不會魔法的主要角色──而且從各方的消息來看，我們將會愛死他！
+
+　　1926 年代的美國社會，莫魔與魔法族群之間的相處情形是非常緊繃的；像雅各這樣不會害怕、不仇視巫師的莫魔可說是少之又少。雅各與主角紐特‧斯卡曼德等人一同經歷了大冒險，但是他們的旅程有辦法一直維持下去嗎？莫魔與巫師的藩籬會因為這樣的跨「種族」友誼而破除嗎？有了雅各這種定位有趣的角色加入，將會激起這部電影劇情中很不一樣的漣漪。
+</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="雅各·科沃斯基" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="df3-cW-1hF">
+                                <rect key="frame" x="107" y="380" width="161" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b5a-bz-DEp" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1137" y="922"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="m2O-bt-3mK">
+            <objects>
+                <viewController id="bVk-wR-zxk" customClass="ViewController" customModule="monicachiu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cqn-4E-SEK"/>
+                        <viewControllerLayoutGuide type="bottom" id="8fh-wn-jCd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="djg-YV-XXH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c2d-Ph-QBb">
+                                <rect key="frame" x="-8" y="28" width="391" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="魁登斯‧巴波" translatesAutoresizingMaskIntoConstraints="NO" id="NRg-HJ-U5O">
+                                <rect key="frame" x="0.0" y="0.0" width="383" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qMH-H4-R7B">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="Q9Y-Ig-pQ6"/>
+                                    <tabBarItem systemItem="more" id="DaG-cL-Xnu"/>
+                                </items>
+                            </tabBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="gpF-ZF-v3J">
+                                <rect key="frame" x="26" y="419" width="322" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">演員：伊薩·米勒Ezra Miller  
+　　魁登斯‧巴波（伊薩‧米勒飾演）是瑪莉盧認養的三個孩子之一，長年活在這位養母蠻橫家規的恐懼之下。不過，他很快就會發現自己和善於操弄人心的波西瓦‧葛雷夫成為好朋友──但他沒警覺到的是，葛雷夫接近他似乎另有謀算。
+
+　　這個角色從名字曝光開始到現在一直都很神祕，他的身世不明、從劇照中看起來詭異的行徑，更讓人懷疑：住在極度厭惡魔法的莫魔家庭裡的他，是否其實是個巫師？而從選角的角度來看，選到目前人氣當紅的演員伊薩‧米勒來飾演這個角色，似乎也間接代表著這個角色的重要性──因此，儘管我們還對這個人物相當陌生，幾乎可以肯定的是，他必定會在新電影裡掀起一番波瀾。</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="魁登斯·巴波 " textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="1cu-mu-6g3">
+                                <rect key="frame" x="107" y="380" width="161" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Unx-v6-7ds" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2447" y="922"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="qRy-mS-Shz">
+            <objects>
+                <viewController id="L9P-b2-NJP" customClass="ViewController" customModule="monicachiu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8EI-nM-EPO"/>
+                        <viewControllerLayoutGuide type="bottom" id="GSh-P2-zyp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZC3-lK-cbA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ME6-cg-Dqc">
+                                <rect key="frame" x="-8" y="28" width="391" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="波西瓦‧葛雷夫" translatesAutoresizingMaskIntoConstraints="NO" id="jtf-k4-gHe">
+                                <rect key="frame" x="0.0" y="0.0" width="383" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="O0R-bk-qw6">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="HRs-9m-RSp"/>
+                                    <tabBarItem systemItem="more" id="Tbb-kK-JlQ"/>
+                                </items>
+                            </tabBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="3wZ-SJ-RNb">
+                                <rect key="frame" x="26" y="419" width="322" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">演員：柯林·法洛 Colin Farrell  
+       西瓦‧葛雷夫（柯林‧法洛飾演）不僅是位強大的「正氣師」，也是「美利堅魔法國會」的魔法安全部長，可說是美國巫師社會中最高等級的官員之一。他在片中追逐著主角紐特與奇獸們的蹤跡，一心想逮到紐特，以防他嚴重危害「國際保密規章」。
+
+　　在他的角色海報中，哈迷們驚見「死神聖物」的標記出現，更加深了我們對這號人物的興趣──他和葛林戴華德有關係嗎？也因此，加上他對紐特、蒂娜等主角們不友善的態度，這位正氣師本該是正義的一方，已逐漸被歸類為「反派角色」。
+
+　　另一個讓人肯定葛雷夫心懷不軌的，就是他對魁登斯的不明企圖。祕密接觸魔法社會最大敵人 #瑪莉盧 的養子，顯然不是一件很光明的事──他想從這位行蹤神祕的男孩子身上得到什麼？這會是電影劇情轉折的關鍵之一嗎？
+</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="波西瓦·葛雷夫" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="cFv-na-6bt">
+                                <rect key="frame" x="107" y="380" width="161" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NoK-XN-5R7" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1790" y="922"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EuU-np-AB1">
+            <objects>
+                <viewController id="LiH-0L-2Jz" customClass="ViewController" customModule="monicachiu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A6E-LE-2aN"/>
+                        <viewControllerLayoutGuide type="bottom" id="e93-WC-Vfo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="95L-7o-KxB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pY3-iM-huJ">
+                                <rect key="frame" x="-8" y="28" width="391" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="瑪莉盧‧巴波" translatesAutoresizingMaskIntoConstraints="NO" id="AP7-VB-4EW">
+                                <rect key="frame" x="0.0" y="0.0" width="383" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <tabBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uuI-Z8-Els">
+                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <items>
+                                    <tabBarItem systemItem="favorites" id="miR-8b-Vi0"/>
+                                    <tabBarItem systemItem="more" id="QGS-m8-Xm9"/>
+                                </items>
+                            </tabBar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="gjY-pe-IMg">
+                                <rect key="frame" x="26" y="419" width="322" height="187"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <mutableString key="text">員：莎曼珊·莫頓 Samantha Morton 
+　　瑪莉盧‧巴波（珊曼莎‧摩頓飾演）是「新賽倫復興協會」的激進派領袖，她一生都投入在揪出並且摧毀女巫與巫師這檔事上。她認養了三個小孩，兩位女兒、一位兒子，但她對抗魔法的聖戰卻讓他們從小就活在盛怒的恐懼陰影中。
+
+　　瑪莉盧目前看起來是這部電影中最顯眼的「壞人」──因為我們早就知道她與魔法世界對抗的立場。不過，更令人好奇的恐怕並不是這位將巫師視為妖魔鬼怪的女人，而是她領養的兒女們。魁登斯、莫蒂絲提兩人在瑪莉盧的高壓教養下，都形成相當反社會的人格──魁登斯相當怕生、莫蒂絲提則相當叛逆。
+
+　　在瑪莉盧眼下，她的兒女們以及「賽倫復興會」救濟的兒童們全都要幫忙發散「女巫就在你我身邊」的傳單；她深深知道，如此高調宣揚激進理念，勢必會招致危險──但她沒料到的是，危險總是來自出奇不意的地方。</mutableString>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="瑪莉盧‧巴波" textAlignment="center" minimumFontSize="16" translatesAutoresizingMaskIntoConstraints="NO" id="HHM-hR-2Xq">
+                                <rect key="frame" x="107" y="380" width="161" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <toolbarItems/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u0x-eR-kHJ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3124" y="922"/>
+        </scene>
+        <!--電影介紹-->
+        <scene sceneID="thE-lH-O6X">
+            <objects>
+                <tableViewController title="電影介紹" id="8gh-4Q-aCW" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Fxc-bD-Po2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <imageView key="tableFooterView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="劇照3" id="Z8d-dC-9UC">
+                            <rect key="frame" x="0.0" y="847" width="375" height="269"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <sections>
+                            <tableViewSection id="1fX-cX-hEu">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="229" id="AcH-Om-yDb">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="229"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="AcH-Om-yDb" id="PkK-r8-B0E">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="228"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="劇照6" highlightedImage="logo" translatesAutoresizingMaskIntoConstraints="NO" id="d1P-Ss-hie">
+                                                    <rect key="frame" x="18" y="39" width="167" height="166"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="wc9-V6-pfq">
+                                                    <rect key="frame" x="201" y="135" width="112" height="29"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <rect key="contentStretch" x="0.0" y="0.0" width="0.5" height="0.5"/>
+                                                    <segments>
+                                                        <segment title="2D"/>
+                                                        <segment title="3D"/>
+                                                    </segments>
+                                                </segmentedControl>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="怪獸與牠們的產地" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsv-XQ-Nsq">
+                                                    <rect key="frame" x="201" y="39" width="145" height="32"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="17"/>
+                                                    <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FANTASTIC BEASTS AND WHERE TO FIND THEM" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uoN-wM-LDK">
+                                                    <rect key="frame" x="201" y="65" width="145" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="10"/>
+                                                    <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="上映日期：2016/11/17" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="muD-qD-Zcu">
+                                                    <rect key="frame" x="201" y="90" width="145" height="37"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="10"/>
+                                                    <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="tintColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="5" rowHeight="272" id="Jza-dy-rRI">
+                                        <rect key="frame" x="0.0" y="229" width="375" height="272"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Jza-dy-rRI" id="RGF-ea-QkX">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="271"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HLL-xz-YCl">
+                                                    <rect key="frame" x="32" y="37" width="315" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <string key="text">     《怪獸與牠們的產地》故事背景是發生在1926年的美國紐約，由奧斯卡影帝艾迪．瑞德曼領銜主演，故事描述1926年，紐特．卡曼德（艾迪．瑞德曼 飾）提著一只內容比外表看起來還要大的斑駁皮箱來到紐約，他的工作是周遊全世界尋找並記錄既危險又稀有的魔法奇獸，原本只是想在紐約短暫停留…
+但是，因為陰錯陽差的關係，美國的莫魔（麻瓜）雅各(丹富樂 飾) 誤開紐特的皮箱，導致皮箱中一部分怪獸逃出紐特的控制，並在紐約市造成破壞，原來這個看似不起眼的「紐特皮箱」，裡面竟裝滿紐特從世界各地找到或拯救的各種奇獸，而這些原本裝在「紐特皮箱」裡的魔法界珍奇異獸，紐特若不能及時將牠們抓回皮箱，極可能引發一場巫師與莫魔(美國人口中的麻瓜）的雙邊大戰…</string>
+                                                    <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="劇情簡介" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tHs-JR-PIF">
+                                                    <rect key="frame" x="141" y="8" width="93" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="5" rowHeight="272" id="wTI-tQ-4DF">
+                                        <rect key="frame" x="0.0" y="501" width="375" height="272"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wTI-tQ-4DF" id="8Uc-x6-G6E">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="271"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceHorizontal="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NTh-6E-AnF">
+                                                    <rect key="frame" x="32" y="37" width="315" height="208"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="tintColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <string key="text">     《怪獸與牠們的產地》故事背景是發生在1926年的美國紐約，由奧斯卡影帝艾迪．瑞德曼領銜主演，故事描述1926年，紐特．卡曼德（艾迪．瑞德曼 飾）提著一只內容比外表看起來還要大的斑駁皮箱來到紐約，他的工作是周遊全世界尋找並記錄既危險又稀有的魔法奇獸，原本只是想在紐約短暫停留…
+但是，因為陰錯陽差的關係，美國的莫魔（麻瓜）雅各(丹富樂 飾) 誤開紐特的皮箱，導致皮箱中一部分怪獸逃出紐特的控制，並在紐約市造成破壞，原來這個看似不起眼的「紐特皮箱」，裡面竟裝滿紐特從世界各地找到或拯救的各種奇獸，而這些原本裝在「紐特皮箱」裡的魔法界珍奇異獸，紐特若不能及時將牠們抓回皮箱，極可能引發一場巫師與莫魔(美國人口中的麻瓜）的雙邊大戰…</string>
+                                                    <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="13"/>
+                                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                </textView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="劇情簡介" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7i-yw-xcb">
+                                                    <rect key="frame" x="141" y="8" width="93" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.60000002379999995" green="0.40000000600000002" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="5" rowHeight="74" id="OUe-XL-sA0">
+                                        <rect key="frame" x="0.0" y="773" width="375" height="74"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OUe-XL-sA0" id="8DD-zh-NTN">
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="73"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="角色介紹" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="De3-ra-vVb">
+                                                    <rect key="frame" x="134" y="27" width="103" height="18"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="EqS-0o-by5" kind="show" id="wDc-Dh-uSR"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="8gh-4Q-aCW" id="Ed3-0R-1nX"/>
+                            <outlet property="delegate" destination="8gh-4Q-aCW" id="ik2-Ay-nRO"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="電影介紹" id="QX7-sm-iuE"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Sr-ue-FvK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.199999999999999" y="122.78860569715144"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo" width="553" height="317"/>
+        <image name="劇照" width="2863" height="1200"/>
+        <image name="劇照2" width="640" height="360"/>
+        <image name="劇照3" width="2048" height="857"/>
+        <image name="劇照6" width="1000" height="1000"/>
+        <image name="奎妮·金坦" width="1000" height="1481"/>
+        <image name="扭特·斯卡曼" width="405" height="600"/>
+        <image name="波西瓦‧葛雷夫" width="405" height="600"/>
+        <image name="瑪莉盧‧巴波" width="405" height="600"/>
+        <image name="蒂娜·金坦" width="413" height="612"/>
+        <image name="雅各‧科沃斯基" width="405" height="600"/>
+        <image name="魁登斯‧巴波" width="401" height="595"/>
+    </resources>
 </document>
